@@ -1,0 +1,51 @@
+.footer{
+    padding: 0 50;
+    background: #222F33;
+
+    &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+        &>a{
+        color: #FFF;
+        
+        font-family: Rubik;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        &:hover {
+            color: yellow;
+            transition: var(--transition-animation)
+            }
+        }
+    }
+
+        &__logo{
+            padding-top: 33px;
+            padding-bottom: 33px;
+        }
+        &__info{
+            display: flex;
+            gap: 30px;
+
+
+        &>a {
+            color: #FFF;
+            
+            font-family: Rubik;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            
+            opacity: 0.8;
+            &:hover {
+                color: yellow;
+                transition: var(--transition-animation)
+            }
+        }
+        }
+
+}
